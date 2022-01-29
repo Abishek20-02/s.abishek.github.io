@@ -1,0 +1,82 @@
+body {
+    background-color: powderblue;
+  }
+  h1 {
+    color: blue;
+  }
+  p {
+    color: red;
+  }
+ul {
+  list-style-type: none;
+  margin: 20px;
+  padding: 20px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+div.polaroid {
+    padding: 10px;
+    margin: 20px;
+    float: right;
+    width: 20%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* margin-bottom: 25px; */
+  }
+  .column {
+    float: left;
+    /* width: 33.33%; */
+    /* padding-left: 20px; */
+    margin-left: 20px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .button {
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 19px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: brown;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: blue}
+  
+  .button:active {
+    background-color:brown;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  
+  /* div.container {
+    text-align: center;
+    padding: 10px 20px;
+  } */
